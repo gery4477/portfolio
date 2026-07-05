@@ -2,7 +2,7 @@ import os
 from dotenv import load_dotenv
 import requests
 load_dotenv()
-api_key = os.getenv("WEATHER_API_KEY")#СЮДА СВОЙ КЛЮЧ API OpenWitherMap/YOU KEY API OpenWitherMap
+api_key = "WEATHER_API_KEY"#СЮДА СВОЙ КЛЮЧ API OpenWitherMap/YOU KEY API OpenWitherMap
 
 
 city = input('Enter city: ')
