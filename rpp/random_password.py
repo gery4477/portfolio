@@ -15,7 +15,7 @@ def save_data(data):
         json.dump(data, f, indent=4)
 
 def generate_password(length):
-    alphabet = string.ascii_letters + string.digits + string.punctuation
+    alphabet = string.ascii_letters + string.digits 
     return ''.join(random.choice(alphabet) for _ in range(length))
 
 def show_password():
